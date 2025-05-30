@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.softgasm.billant.home"
+        android:label="@string/transactions"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_about"
+            app:destination="@id/about" />
+        <action
+            android:id="@+id/action_nav_home_to_subscribe"
+            app:destination="@id/subscribe" />
+        <action
+            android:id="@+id/action_nav_home_to_currency2"
+            app:destination="@id/currency" />
+        <action
+            android:id="@+id/action_nav_home_to_assets2"
+            app:destination="@id/assets" />
+    </fragment>
+    <fragment
+        android:id="@+id/about"
+        android:name="com.softgasm.billant.about"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/subscribe"
+        android:name="com.softgasm.billant.subscribe"
+        android:label="@string/subscribe"
+        tools:layout="@layout/fragment_subscribe" />
+    <fragment
+        android:id="@+id/assets"
+        android:name="com.softgasm.billant.contents.financial_management.assets"
+        android:label="@string/assets"
+        tools:layout="@layout/fragment_assets" />
+    <fragment
+        android:id="@+id/currency"
+        android:name="com.softgasm.billant.contents.calculations.currency"
+        android:label="@string/currency"
+        tools:layout="@layout/fragment_currency" />
+    <fragment
+        android:id="@+id/calculator"
+        android:name="com.softgasm.billant.contents.calculations.calculator"
+        android:label="@string/calculator"
+        tools:layout="@layout/fragment_calculator" />
+    <fragment
+        android:id="@+id/interest"
+        android:name="com.softgasm.billant.contents.calculations.commons.interest"
+        android:label="@string/interest"
+        tools:layout="@layout/fragment_interest" />
+    <fragment
+        android:id="@+id/loans"
+        android:name="com.softgasm.billant.contents.financial_management.loans"
+        android:label="@string/loans"
+        tools:layout="@layout/fragment_loans" />
+    <fragment
+        android:id="@+id/odds"
+        android:name="com.softgasm.billant.contents.calculations.commons.odds"
+        android:label="@string/odds"
+        tools:layout="@layout/fragment_odds" />
+    <fragment
+        android:id="@+id/consumptiontax"
+        android:name="com.softgasm.billant.contents.calculations.commons.consumptiontax"
+        android:label="@string/consumptiontax"
+        tools:layout="@layout/fragment_consumptiontax" />
+    <fragment
+        android:id="@+id/savings"
+        android:name="com.softgasm.billant.contents.financial_management.savings"
+        android:label="@string/savings"
+        tools:layout="@layout/fragment_savings" />
+    <fragment
+        android:id="@+id/tip"
+        android:name="com.softgasm.billant.contents.calculations.commons.tip"
+        android:label="@string/tip"
+        tools:layout="@layout/fragment_tip" />
+    <fragment
+        android:id="@+id/unitprice"
+        android:name="com.softgasm.billant.contents.calculations.commons.unitprice"
+        android:label="@string/unitprice"
+        tools:layout="@layout/fragment_unitprice" />
+    <fragment
+        android:id="@+id/loan"
+        android:name="com.softgasm.billant.contents.calculations.commons.loan"
+        android:label="@string/loan"
+        tools:layout="@layout/fragment_loan" />
+    <fragment
+        android:id="@+id/spendings"
+        android:name="com.softgasm.billant.contents.financial_management.spendings"
+        android:label="@string/spendings"
+        tools:layout="@layout/fragment_spendings" />
+    <fragment
+        android:id="@+id/commons_main"
+        android:name="com.softgasm.billant.contents.calculations.commons_main"
+        android:label="@string/commons"
+        tools:layout="@layout/fragment_commons" />
+
+</navigation>
