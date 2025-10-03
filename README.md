@@ -20,7 +20,7 @@ From daily expenses to business calculations, Billant combines multiple tools in
 ---
 
 ## 📸 Screenshots
-| Conversion | Currency List |
+| Income-Expense Analysis | Calculator |
 |------------|---------------|
 | ![screenshot1](assets/screenshot1.png) | ![screenshot2](assets/screenshot2.png) |
 
