@@ -62,3 +62,7 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 Created by **Syncertica**  
 💡 Follow for more apps and projects!
 
+---
+⚠️ Disclaimer
+Syncertica makes no warranty and expressly disclaims all warranties as to the accuracy or reliability or suitability of any calculation results or information provided through its products.
+Syncertica is also not responsible for any damages, direct or indirect, which may occur by the calculation results or information provided through the products.
