@@ -21,8 +21,6 @@ Built for travelers, business professionals, and anyone dealing with multiple cu
 |------------|---------------|
 | ![screenshot1](assets/screenshot1.png) | ![screenshot2](assets/screenshot2.png) |
 
-*(Replace `assets/screenshot1.png` with your actual screenshots in the repo)*
-
 ---
 
 ## 📥 Installation
@@ -32,7 +30,7 @@ Download the app directly from Google Play:
 
 Or clone the repo and build manually:
 ```bash
-git clone https://github.com/<your-username>/Billant.git
+git clone [https://github.com/<your-username>/Billant.git](https://github.com/anandavicky123/Billant.git)
 ```
 
 Open in **Android Studio**, build, and run on your device.
