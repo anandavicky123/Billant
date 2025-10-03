@@ -41,19 +41,9 @@ Open in **Android Studio**, build, and run on your device.
 ---
 
 ## 🛠️ Tech Stack
-- **Java (Android)** – Core development language  
 - **React Native + TypeScript (planned refactor)** – For cross-platform support  
 - **ExchangeRate-API** – Currency data provider  
 - **Gradle** – Build system  
-
----
-
-## 📌 Roadmap
-- [ ] Add offline caching for last used currency rates  
-- [ ] Support for multiple wallets/accounts  
-- [ ] Export reports to PDF/Excel  
-- [ ] Add dark mode  
-- [ ] Home screen widgets for quick access  
 
 ---
 
