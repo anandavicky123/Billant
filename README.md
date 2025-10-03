@@ -30,7 +30,7 @@ Download the app directly from Google Play:
 
 Or clone the repo and build manually:
 ```bash
-git clone [https://github.com/<your-username>/Billant.git](https://github.com/anandavicky123/Billant.git)
+git clone https://github.com/anandavicky123/Billant.git
 ```
 
 Open in **Android Studio**, build, and run on your device.
